@@ -7,10 +7,10 @@ x4: .word 17
 .text
 .globl _start
 _start:
-    # Inicialização de x (s1)
-    addi s1, zero, 1       # x = 1
     
-    # Carregar endereços das variáveis
+    addi s1, zero, 1       
+    
+   
     la t0, x1              
     la t1, x2              
     la t2, x3              
